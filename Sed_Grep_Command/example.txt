@@ -1,0 +1,2 @@
+#This program replaces all the occurences(g is used for that) of the word "thy" to "your". Here also as we did in the last example we only change the word "thy" to "your" and not the words containing the word "thy" to "your". Here (i) is used to perform case insensitive operation.
+sed -e "s/\bthy\b/your/gi"
